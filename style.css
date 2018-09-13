@@ -1,0 +1,73 @@
+@@font-face {
+  font-family: 'Grafitty';
+  src: url('grafitty-regular.ttf');
+  src: url('grafitty-regular.ttf') format('truetype');
+}
+.whitecontainer {
+  margin: 20px;
+  background-color: #dedede;
+  border-color: darkblue;
+  border-width: 2px 1px 3px 1px;
+  border-style: solid;
+  padding: 10px;
+  align: center;
+}
+.profilepic{
+  border-radius: 50%;
+  float: left;
+  shape-outside: ellipse();
+  margin: 10px;
+
+}
+
+ul{
+  font-size: 1.3em;
+}
+ul li{
+  background-color: white;
+  margin: 0px;
+  width: 75%;
+}
+
+body{
+  font-family: monospace;
+  /*background-color: powderblue;*/
+  background: -webkit-linear-gradient(powderblue,skyblue);
+  background-repeat: no-repeat;
+  color: midnightblue;
+}
+p{
+  width: 80%;
+    font-size: 1em;
+}
+a{
+  color: blue;
+  text-decoration: underline;
+}
+h2 {
+  text-transform: uppercase;
+  font-family: 'Grafitty', cursive;
+  font-size: 2.5em;
+  margin-left: 10%;
+  margin-bottom: -20px;
+}
+hr {
+  width: 50%;
+  color: black;
+}
+.name{
+  color: darkblue;
+  text-transform: uppercase;
+  font-family: 'Grafitty', cursive;
+  font-size: 5em;
+  font-stretch: expanded;
+  text-align: center;
+  text-indent: 30px;
+  letter-spacing: normal;
+  transition: color 2s, letter-spacing 2s, text-shadow 5s;
+}
+.name:hover{
+  color: seagreen;
+  letter-spacing: 30px;
+  text-shadow: white 3px 0 10px, 0 0 1em powderblue, 0 0 0.2em white;
+}
